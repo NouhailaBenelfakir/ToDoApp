@@ -4,9 +4,9 @@ body {
     align-items: center;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #153677, #4e085f);
-    margin: 0; /* Reset margin for body */
-    padding: 20px; /* Add some padding to the body */
+    background: linear-gradient(135deg, #cf9aff,#95c0ff);
+    margin: 0; 
+    padding: 20px; 
 }
 
 /* Style for the container of tasks */
@@ -55,11 +55,11 @@ body {
     padding: 5px 5px;
     border-radius: 4px;
     color: #fff;
-    background-color: #E5503E;
+    background-color: #9481fd;
 }
 
 .tache:hover {
-    background-color: #6b0c60;
+    background-color: #571094;
 }
 
 .description{
@@ -82,11 +82,12 @@ body {
     padding: 5px 15px;
     border-radius: 4px;
     color: #fff;
-    background-color: #E5503E;
+    background: #9481fd;
+    /*background: linear-gradient(#9481fd,#571094);*/
 }
 
 .choix1:hover {
-    background-color: #6b0c60;
+    background: #571094;
 }
 .assurer{
     font-size: 25px;

@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/TODOAPP/entete.css">
+    <style>
+        .link{
+    margin-left: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 12px 40px;
+    /*background: #ff5945;*/
+    background: linear-gradient(#9481fd,#571094);
+    color: #fff;
+    font-size: 16px;
+    cursor:pointer;
+    border-radius: 10px;
+}
+</style>
 </head>
 <body>
 

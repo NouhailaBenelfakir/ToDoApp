@@ -22,7 +22,7 @@ include_once('entete.php');
     <div class="task-container">
     <div class="box">
     <h1 class="supprimee">Tache supprimee.</h1>
-    <a href="index.php" class="choix1">Terminer</a>
+    <a href="index.php" class="choix1">Mes Taches</a>
     </div>';
 
 ?>

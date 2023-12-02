@@ -18,8 +18,49 @@ while ($t = $res->fetch(PDO::FETCH_OBJ)) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/TODOAPP/tache.css">
+    <link rel="stylesheet"  href="/TODOAPP/tache.css">
     <title>Liste des taches</title>
+    <style>
+        .tache {
+    text-decoration: none;
+    padding: 5px 5px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #9481fd;
+}
+
+.tache:hover {
+    background-color: #571094;
+}
+
+.description{
+    font-size: 20px;
+}
+/*taches modification*/
+
+.choix {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.choix a{
+    margin-right: 10px;
+}
+
+/* Style for the links */
+.choix1 {
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 4px;
+    color: #fff;
+    background: #9481fd;
+    /*background: linear-gradient(#9481fd,#571094);*/
+}
+
+.choix1:hover {
+    background: #571094;
+}
+</style>
 </head>
 <body>
     <div class="task-container">
